@@ -158,3 +158,9 @@ INSERT INTO products (product_id, brand_id, attribute_id, category_id, variation
 (3, 3, 3, 3, 3, 'Sony Vaio Laptop', 'High-end laptop', 1200.00, 1100.00, 'In Stock', 'Active', 'vaio.jpg'),
 (4, 4, 4, 4, 4, 'LG OLED TV', '4K Smart TV', 1500.00, NULL, 'In Stock', 'Active', 'lg_oled.jpg'),
 (5, 5, 5, 2, 5, 'Xiaomi Mi 11', 'Affordable flagship', 599.99, 499.99, 'In Stock', 'Active', 'mi11.jpg');
+
+composer i  
+composer du
+cp .env.example .env
+php artisan optimize:clear
+php artisan config:cache 
