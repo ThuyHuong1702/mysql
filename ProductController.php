@@ -327,3 +327,8 @@ class ProductController
         };
     }
 }
+
+
+ git add -f storage/app/public/products/*
+git commit -m "Add product images and product folder"
+git push origin main
